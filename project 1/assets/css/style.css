@@ -1,0 +1,177 @@
+body {
+    background-image: linear-gradient(#FC5E55,#FA4083);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    background-image: url(../images/image-lion-background.png);
+    background-position: top;
+    background-size: cover;
+}
+header {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 14px 0;
+    border-bottom: 1px solid white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navbutton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    display: inline-block;
+    border-radius: 2px;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+}
+.dropdown {
+    display: none;
+}
+.navbutton:hover .dropdown {
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+}
+.dropdown .navbutton {
+    width: 90px;
+    margin-left: -30px;
+    z-index: 1;
+    text-align: center;
+    background-color: white;
+    
+}
+.dropdown .navbutton  a {
+  color: #FA4083;  
+}
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.herobox1 {
+    flex: 2;
+    margin-right: 100px;
+}
+.herobox2 {
+    flex: 1;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.246);
+}
+p {
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+}
+.mybutton {
+    background-color: white;
+    color: #FA4083;
+    padding: 11px 25px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+    font-family: 'Playfair Display', serif;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+a.mybutton {
+margin-top: 20px;
+}
+.mybutton:hover {
+    background-color: lightgreen;
+    transition-duration: 1s;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.card1 {
+    background-image: url(../images/image-background-card1.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
+}
+.card2 {
+    background-image: url(../images/image-background-card2.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
+}
+.card3 {
+    background-image: url(../images/image-background-card3.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(rgba(0, 0, 0, 0.274));
+}
+i {
+    font-size: 100px;
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+.cards p {
+    line-height: 1.2rem;
+    font-size: 0.875rem;
+    margin-top: 10px;
+}
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.tbox {
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 47%;
+    padding: 50px;
+    margin-top: 50px;
+}
+.tbox p:last-of-type {
+    font-size: 0.75rem;
+    font-style: italic;
+}
+input[type=text], input[type=email], textarea {
+    padding: 11px 25px;
+    font-size: 0.85rem;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+.inputwrapper {
+    margin-bottom: 20px;
+}
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+.margin  {
+    margin-right: 30px;
+}
+input[type=radio] {
+    margin-right: 10px;
+}
+form {
+    margin: 40px 0;
+}
